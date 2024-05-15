@@ -1,0 +1,121 @@
+html, body {
+    height: 100%;
+    margin: 0; 
+    padding: 0; 
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #fff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+.navbar {
+    background-color: #fff; 
+    color: #fff;
+    padding: 10px; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.avatar {
+    min-width: 50px;
+    min-height: 50px;
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.home-btn {
+    width: 100%;
+    text-align: end;
+}
+
+.home-btn, .menu-btn .controlers {
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.welcome, .title {
+    padding: 10px;
+    margin: 0;
+}
+
+.welcome h1, span {
+    margin-bottom: 1px;
+}
+
+#taskList {
+    list-style: none; 
+    padding: 0;
+}
+
+.task-card {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.task-type {
+    width: 20px;
+    height: 20px; 
+    border-radius: 50%; 
+    margin-left: 10px; 
+    background-color: rgb(57, 63, 108);
+}
+
+.controlers {
+    display: flex;
+    align-items: center;
+}
+
+.controlers button {
+    margin-left: 10px;
+}
+
+#myCheckbox {
+    margin: 0;
+    width: 20px;
+    height: 20px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.add-task-btn {
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    border: none;
+    border-radius: 50%;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    margin: 0 auto;
+    display: block;
+}
+
+#noTask {
+    margin-left: 10px;
+}
